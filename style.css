@@ -1,0 +1,1294 @@
+.background{/* Account settings page */
+
+
+    position: relative;
+    width: 1512px;
+    height: 2105px;
+    
+    background: #FFFFFF;}
+.profilebox{/* Profile details */
+
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 1104px;
+    height: 417px;
+    left: 80px;
+    top: 277px;
+    
+    border: 1px solid #BEBEBE;
+    border-radius: 24px;}
+.prode{/* Profile details */
+
+
+    position: absolute;
+    width: 238px;
+    height: 53px;
+    margin: 0px;
+    left: 60px;
+    top: 62px;
+    
+    /* Header 01 */
+    
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
+.fullname{/* Full name */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 238px;
+    
+    position: absolute;
+    width: 648px;
+    height: 17px;
+    left: 67px;
+    top: 160px;
+    }
+.fullnametext{/* Full name */
+
+
+    width: 118px;
+    height: 17px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.name{/* Shanawaz hussain shaik */
+
+
+    width: 292px;
+    height: 17px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.edit{/* Edit */
+
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1007px;
+    top: 68px;
+    }
+.vector{/* Vector */
+
+
+    position: absolute;
+    left: 6px;
+    width:24.5px;
+    top:7.5px;
+    height:24.5px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(4\).png);
+    }
+.vector1{/* Vector */
+
+
+    position: absolute;
+    left: 17.5px;
+    height: 17px;
+    top: 5.5px;
+    width: 17px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(5\).png)
+    }
+.mail{/* Email */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 290px;
+    
+    position: absolute;
+    width: 764px;
+    height: 17px;
+    left: 67px;
+    top: 241px;}
+.email{/* Email */
+
+
+    width: 66px;
+    height: 17px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.mailid{/* Shanawazhussain909@gmail.com */
+
+
+    width: 408px;
+    height: 17px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.mobile{/* Mobile */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 233px;
+    
+    position: absolute;
+    width: 493px;
+    height: 17px;
+    left: 67px;
+    top: 322px;}
+.mobnum{/* Mobile no. */
+
+
+    width: 123px;
+    height: 17px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.num{/* 9989765210 */
+
+
+    width: 137px;
+    height: 17px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.address{/* Address */
+
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 1104px;
+    height: 493px;
+    left: 10px;
+    top: 480px;
+    
+    border: 1px solid #BEBEBE;
+    border-radius: 24px;}
+.cta{/* Address CTA */
+
+
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 44px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 210x;
+    height: 40px;
+    left: 860px;
+    top: 440px;
+    
+    background: #FFFFFF;
+    /* Secondary color */
+    
+    border: 1px solid #1F1F1F;
+    border-radius: 8px;}
+.txt{/* Sign up */
+
+
+    width: 136px;
+    height: 11px;
+    
+    /* Paragraph 02 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.02em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.addres{/* Addresses */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 592px;
+    height: 340px;
+    left: 59px;
+    top: 101px;}
+.address1{/* Address 1 */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 592px;
+    height: 60px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.shaik{/* Shaik */
+
+
+    width: 40px;
+    height: 0px;
+    
+    /* Paragraph 01 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:1px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.ravinder{/* 2/73-3,Ravinder colony, kadapa, ANDHRA PRADESH, 516001, India, Phone number: 9934765210 */
+
+
+    width: 592px;
+    height: 64px;
+    
+    /* Paragraph 01 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.address2{/* Address 2 */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 533px;
+    height: 100px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.ravi{/* Ravi */
+
+
+    width: 43px;
+    height: 32px;
+    
+    /* Paragraph 01 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 70px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.unani{/* 9/34-3, Unani nagar, Hyderabad, Telanagana, 500001, India, Phone number: 99897633210 */
+
+
+    width: 533px;
+    height: 64px;
+    
+    /* Paragraph 01 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.address3{/* Address 3 */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 520px;
+    height: 100px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;}
+.kiran{/* Kiran */
+
+
+    width: 52px;
+    height: 32px;
+    
+    /* Paragraph 01 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 70px;
+    /* identical to box height, or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.numor{/* 9/37-2, Numor street, Bengaluru, karnataka, 790003, India, Phone number: 9989786210 */
+
+
+    width: 520px;
+    height: 64px;
+    
+    /* Paragraph 01 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 160% */
+    
+    letter-spacing: 0.02em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.edit1{/* Edit */
+
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 758px;
+    top: 280px;}
+.vector1{/* Vector */
+
+
+    position: absolute;
+    left: 6px;
+    height:24px;
+    top: 10px;
+    width: 25px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(4\).png)}
+.vector2{/* Vector */
+
+
+    position: absolute;
+    left: 17px;
+    height: 18px;
+    top: 7px;
+    width: 17px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(5\).png);
+    }
+.edit2{/* Edit */
+
+
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    left: 758px;
+    top: 170px;
+    }
+.vector3{/* Vector */
+
+
+    position: absolute;
+    left:  6px;
+    height: 24.5px;
+    top: 8px;
+    width:25px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(4\).png) ;
+    }
+.vector4{/* Vector */
+
+
+    position: absolute;
+    left: 17.5px;
+    height:17px;
+    top: 5.5px;
+    width: 17px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(5\).png) ;}
+.edit3{/* Edit */
+
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 758px;
+    top: 60px;}
+.vector5{/* Vector */
+
+
+    position: absolute;
+    height: 25.5px;
+    width: 24.5px;
+    left: 8px;
+    top: 9px;
+    border-radius: 0px;
+
+
+
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(4\).png);}
+.vector6{/* Vector */
+
+
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    left: 17.5px;
+    top: 8px;
+    border-radius: 0px;
+
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(5\).png);}
+.ad2{/* My addresses */
+
+
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: 1px;
+    top: -90px;
+    
+    /* Header 01 */
+    
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
+.saved{/* Saved cards */
+
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 1104px;
+    height: 400px;
+    left: 5px;
+    top: 550px;
+    
+    border: 1px solid #BEBEBE;
+    border-radius: 24px;}
+.card{/* Card 1 and delete btn */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 158px;
+    
+    position: absolute;
+    width: 1009px;
+    height: 72px;
+    left: 59px;
+    top: 309px;
+    }
+.box{/* Card */
+
+
+    width: 815px;
+    height: 72px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.expires{/* Expires 10/24 */
+
+
+    position: absolute;
+    width: 162px;
+    height: 15px;
+    left: 656px;
+    top: 5.5px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
+.onebank{/* One Bank debit card ending with 4368 */
+
+
+    position: absolute;
+    width: 460px;
+    height: 17px;
+    left: 120px;
+    top: 5.5px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
+.visa{/* visa-svgrepo-com 1 */
+
+
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 0px;
+    top: 0px;}
+.pic{/* Vector */
+
+
+    position: absolute;
+    height: 19px;
+    width: 62px;
+    left: 6px;
+    top: 34px;
+    border-radius: 0px;
+
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(6\).png);}
+.frame{/* Frame */
+
+
+    width: 36px;
+    height: 36px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.vic{/* Vector */
+
+
+    position: absolute;
+    height: 7.5px;
+    width: 0px;
+    left: 21px;
+    top: 16.5px;
+    border-radius: 0px;
+
+    
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(7\).png);}
+.vic1{/* Vector */
+
+
+    position: absolute;
+    height: 7px;
+    width: 20px;
+    left: 980px;
+    top: 26px;
+    border-radius: 0px;
+
+   
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(8\).png);}
+.vic2{/* Vector */
+
+
+    position: absolute;
+    height: 27px;
+    width: 26px;
+    left: 980px;
+    top: 30px;
+    border-radius: 0px;
+
+   
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(9\).png);}
+.card1{/* Card 1 and delete btn */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 158px;
+    
+    position: absolute;
+    width: 1013px;
+    height: 72px;
+    left: 59px;
+    top: 211px;
+    }
+.box1{/* Card */
+
+
+    width: 819px;
+    height: 72px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.expires1{/* Expires 09/26 */
+
+
+    position: absolute;
+    width: 166px;
+    height: 17px;
+    left: 656px;
+    top: 1.5px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;}
+.oliver{/* Oliver Bank credit card ending with 1467 */
+
+
+    position: absolute;
+    width: 498px;
+    height: 20px;
+    left: 120px;
+    top: 1.5px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;}
+.visa1{/* visa-svgrepo-com 1 */
+
+
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 0px;
+    top: 0px;}
+.pic1{/* Vector */
+
+
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 37.23%;
+    bottom: 37.23%;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(6\).png)}
+.frame1{/* Frame */
+
+
+    width: 36px;
+    height: 36px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.vec{/* Vector */
+
+
+    position: absolute;
+    height: 7px;
+    width: 20px;
+    left: 980px;
+    top: 26px;
+    border-radius: 0px;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(8\).png);}
+.vec1{/* Vector */
+
+
+    position: absolute;
+    height: 27px;
+    width: 26px;
+    left: 980px;
+    top: 32px;
+    border-radius: 0px;
+
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(9\).png);}
+.card2{/* Card 1 and delete btn */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 158px;
+    
+    position: absolute;
+    width: 1011px;
+    height: 72px;
+    left: 59px;
+    top: 113px;
+    }
+.box2{/* Card */
+
+
+    width: 817px;
+    height: 72px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+.expires2{/* Expires 12/32 */
+
+
+    position: absolute;
+    width: 161px;
+    height: 17px;
+    left: 656px;
+    top: 0px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
+.idfc{/* IDFC Bank debit card ending with 9867 */
+
+
+    position: absolute;
+    width: 468px;
+    height: 17px;
+    left: 120px;
+    top: 0px;
+    
+    /* Paragraph 00 */
+    
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
+.visa2{/* visa-svgrepo-com 1 */
+
+
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 0px;
+    top: 0px;}
+.pic2{/* Vector */
+
+
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 37.23%;
+    bottom: 37.23%;
+    
+    /* Secondary color */
+    
+    background:url(images/Vector\ \(6\).png);}
+.frame2{/* Frame */
+
+
+    width: 36px;
+    height: 36px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+.vec2{/* Vector */
+
+
+    position: absolute;
+    height: 7px;
+    width: 20px;
+    left: 980px;
+    top: 26px;
+    border-radius: 0px;
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(8\).png);}
+.vec3{/* Vector */
+
+
+    position: absolute;
+    height: 27px;
+    width: 26px;
+    left: 980px;
+    top: 32px;
+    border-radius: 0px;
+    
+    /* Secondary color */
+    
+    background: url(images/Vector\ \(9\).png);}
+.line{/* Line 13 */
+
+
+    position: absolute;
+    width: 1002px;
+    height: 1px;
+    left: 68px;
+    top: 389px;
+    
+    /* Secondary color */
+    
+    background: url(images/Line\ 13.png);}
+.line1{/* Line 12 */
+
+
+    position: absolute;
+    width: 1002px;
+    height: 1px;
+    left: 68px;
+    top: 291px;
+    
+    /* Secondary color */
+    
+    background: url(images/Line\ 13.png);}
+.line2{/* Line 11 */
+
+
+    position: absolute;
+    width: 1002px;
+    height: 1px;
+    left: 68px;
+    top: 193px;
+    
+    /* Secondary color */
+    
+    background: url(images/Line\ 13.png);}
+.sa1{/* Saved cards */
+
+
+    position: absolute;
+    width: 205px;
+    height: 42px;
+    left: 59px;
+    top: 20px;
+    
+    /* Header 01 */
+    
+    font-family: 'Laila';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    letter-spacing: 0.04em;
+    
+    /* Secondary color */
+    
+    color: #1F1F1F;
+    }
